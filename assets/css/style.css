@@ -1,0 +1,72 @@
+
+/***** General Styling ****/
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400; 
+    color: #888; 
+    line-height: 30px; 
+    text-align: center; 
+    position: relative;
+}
+
+h1, h2 { 
+    font-family: Quicksand;
+    font-size: 38px;
+    font-weight: normal;
+    color: #fff; 
+    line-height: 50px; 
+}
+
+h3 { 
+    font-size: 22px; 
+    font-weight: 400; 
+    color: #fff;
+    line-height: 30px;
+    font-style: italic;
+}
+
+h5 {
+    font-size: 14px; 
+    font-weight: 400; 
+    color: #555;
+    line-height: 20px;
+    font-style: italic;
+}
+
+
+/***** Top Content ****/
+
+span {
+    color: red;
+    font-weight: bolder;
+}
+
+
+/***** Main Content ****/
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/***** Fas/Far Icon Styling ****/
+
+i {
+    padding-left: 10px;
+}
+
+.fa-tint {
+    color: #cccc00;
+}
+
+.fa-snowflake {
+    color: lightskyblue;
+}
+
+
